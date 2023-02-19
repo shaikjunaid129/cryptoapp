@@ -1,0 +1,80 @@
+.crypto-cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #b3f5f5;
+}
+
+.crypto-card {
+  display: flex;
+  align-items: center;
+  background-color: #b0ebeb;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  margin: 10px;
+  padding: 20px;
+  width: 300px;
+}
+
+.crypto-logo {
+  height: 60px;
+  width: 60px;
+}
+
+.crypto-content {
+  margin-left: 20px;
+}
+
+.crypto-name {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.crypto-symbol {
+  font-size: 16px;
+  margin: 5px 0;
+}
+
+.crypto-price {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.pagination-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  padding-bottom: 20px;
+}
+
+.pagination-container button {
+  background-color: #fff;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  color: #333;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 0 5px;
+  outline: none;
+  padding: 10px 15px;
+  transition: all 0.3s ease;
+}
+
+.pagination-container button:hover:not(.active) {
+  background-color: #f5f5f5;
+}
+
+.pagination-container button.active {
+  background-color: #4caf50;
+  color: #fff;
+  box-shadow: none;
+}
+
+.pagination-container button:disabled {
+  background-color: #f5f5f5;
+  color: #333;
+  cursor: not-allowed;
+}
